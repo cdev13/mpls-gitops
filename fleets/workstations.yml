@@ -179,7 +179,6 @@ software:
       self_service: true
       setup_experience: false
       categories:
-        - Developer
         - Productivity
 
 
