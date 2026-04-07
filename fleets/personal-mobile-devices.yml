@@ -101,6 +101,15 @@ software:
     #     - "Productivity"
     #     - "Communication"
 
+    - app_store_id: "1091189122" # Zoom
+      display_name: "Zoom"
+      self_service: true
+      setup_experience: true
+      platform: ipados
+      categories:
+        - "Productivity"
+        - "Communication"
+
     ###########################################################
     # Android apps
     ###########################################################
