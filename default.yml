@@ -21,7 +21,7 @@ org_settings:
     # Read more:
     #   • https://fleetdm.com/docs/configuration/yaml-files#org-info
     ###########################################################
-    org_name: trv
+    org_name: MSP
 
   server_settings:
     ###########################################################
@@ -32,6 +32,14 @@ org_settings:
     # configurations.
     ###########################################################
     server_url: $FLEET_URL
+
+    fleet_desktop:
+      transparency_url: https://http.dog/
+    
+    host_expiry_settings:
+      host_expiry_enabled: true
+      host_expiry_window: 30
+      # window expiry is an integer representing a number of days
 
   ###########################################################
   # Uncomment to use single sign-on (SSO) for admins accessing Fleet.
@@ -113,7 +121,6 @@ controls:
   #   • https://fleetdm.com/guides/windows-mdm-setup
   ###########################################################
   # windows_enabled_and_configured: true
-
 
 ###########################################################
 # Labels are static or dynamic groupings of computers for
