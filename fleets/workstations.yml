@@ -197,7 +197,8 @@ software:
         - Productivity
 
     # Windows custom packages
-    # …
+    - path: ../platforms/windows/software/cloudflare-warp.yml
+      self_service: false
 
     # Linux custom packages
     # …
