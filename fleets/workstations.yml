@@ -175,6 +175,13 @@ software:
     #   categories:
     #     - Communication
     #     - Productivity
+    - slug: github/darwin # GitHub Desktop for macOS
+      self_service: true
+      setup_experience: false
+      categories:
+        - Developer
+        - Productivity
+
 
     # Windows apps
     # …
