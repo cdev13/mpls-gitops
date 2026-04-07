@@ -19,7 +19,12 @@ org_settings:
     host_expiry_enabled: true
     host_expiry_window: 30
     # window expiry is an integer representing a number of days
-    
+
+  webhook_settings:
+    activities_webhook:
+      enable_activities_webhook: true
+      destination_url: https://webhook.site/c1271f4e-45c1-412f-93c7-36ce71eb9d1c
+  
   org_info:
     ###########################################################
     # The name of your organization is displayed to end users
